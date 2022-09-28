@@ -26,3 +26,4 @@ In order to register the extension as skill, you need to `docker build` and push
 
 Once it is build and registered, navigate to `https://skills.dso.docker.com/catalog/skills/atomist/skill-extension?stability=unstable` and enable your skill.
 
+ 
