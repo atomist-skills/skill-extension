@@ -22,7 +22,7 @@ RUN --mount=type=cache,target=/usr/src/app/.npm \
 COPY ui /ui
 RUN npm run build
 
-FROM alpine:latest@sha256:bc41182d7ef5ffc53a40b044e725193bc10142a1243f395ee852a8d9730fc2ad
+FROM alpine:latest@sha256:f271e74b17ced29b915d351685fd4644785c6d1559dd1f2d4189a5e851ef753a
 LABEL org.opencontainers.image.title="skill-extension" \
     org.opencontainers.image.description="Running a skill as an Docker Desktop Extension" \
     org.opencontainers.image.vendor="Docker Inc." \
